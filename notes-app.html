@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Notes Page</title>
+    <meta charset="utf-8">
+</head>
+<body>
+    <h1>notes app</h1>
+    <h2>take notes and never forget</h2>
+    <label>Search: 
+      <input  id="search-text" type="text-area" name="" placeholder="filter notes">
+    </label>
+    <select id='filter-by'>
+    	<option value="byEdited">sort by last edited</option>
+    	<option value='byCreated'>sort by recently created</option>
+    	<option value="alphabetical">sort alphabetically</option>
+    </select>
+
+   <div id="notes"></div>
+   <button id="create-note">create note</button><br><br>
+   
+   <script type="text/javascript" src="notes-app.js"></script>
+</body>
+</html>
